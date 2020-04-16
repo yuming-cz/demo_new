@@ -11,4 +11,15 @@ public class TestController {
 
         return "第一个spring-boot项目";
     }
+
+
+
+    @RequestMapping("do")
+    public String toDone() {
+
+        return "....................";
+    }
+
+
+
 }
